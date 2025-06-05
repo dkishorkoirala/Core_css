@@ -1,0 +1,67 @@
+---
+
+## 🎨 **CSS Mastery: 4-Week Learning Plan**
+
+### 🔵 **WEEK 1: Module 1 — CSS Fundamentals**
+
+| Day | Topic                                                    |
+| --- | -------------------------------------------------------- |
+| 1   | What is CSS? Inline, Internal, External                  |
+| 2   | CSS Syntax & Selectors (universal, tag, class, id)       |
+| 3   | Colors, Units (px, %, em, rem), Comments                 |
+| 4   | Font Styling (family, size, weight, style)               |
+| 5   | Text Properties (line-height, letter-spacing, alignment) |
+| 6   | Box Model (margin, border, padding, content)             |
+| 7   | **Project**: Personal Profile Card                       |
+
+---
+
+### 🟢 **WEEK 2: Module 2 — Layout & Positioning**
+
+| Day | Topic                                                         |
+| --- | ------------------------------------------------------------- |
+| 8   | Display: `block`, `inline`, `inline-block`, `none`            |
+| 9   | Position: `static`, `relative`, `absolute`, `fixed`, `sticky` |
+| 10  | Float & Clear, Overflow                                       |
+| 11  | Z-index, Layering Elements                                    |
+| 12  | Flexbox Basics: container & item properties                   |
+| 13  | Advanced Flexbox Layouts                                      |
+| 14  | **Project**: Responsive Flexbox Layout                        |
+
+---
+
+### 🟡 **WEEK 3: Module 3 — Advanced Styling**
+
+| Day | Topic                                                                          |
+| --- | ------------------------------------------------------------------------------ |
+| 15  | Pseudo-classes: `:hover`, `:focus`, `:nth-child()`                             |
+| 16  | Pseudo-elements: `::before`, `::after`                                         |
+| 17  | CSS Combinators: descendant, sibling, child                                    |
+| 18  | Media Queries: Mobile-first Responsive Design                                  |
+| 19  | Transitions & Animations (basic)                                               |
+| 20  | Shadows, Gradients, Filters                                                    |
+| 21  | **Project**: Interactive Pricing Table (with hover, media queries, animations) |
+
+---
+
+### 🟠 **WEEK 4: Module 4 — CSS Grid + Final Projects**
+
+| Day | Topic                                                                            |
+| --- | -------------------------------------------------------------------------------- |
+| 22  | CSS Grid Basics: `grid-template`, `gap`, `fr`, etc.                              |
+| 23  | Advanced Grid Layouts: Areas, Auto-fit, Auto-fill                                |
+| 24  | Combining Grid & Flexbox                                                         |
+| 25  | Variables in CSS (`:root`, `var()`), Custom Properties                           |
+| 26  | Utility-First CSS: Writing Clean, Scalable CSS                                   |
+| 27  | **Final Project 1**: Responsive Personal Portfolio Layout                        |
+| 28  | **Final Project 2**: Newsletter Signup Page (with animation + responsive design) |
+
+---
+
+### 📌 Bonus Topics (Optional):
+
+* CSS Functions (`calc()`, `clamp()`)
+* Dark Mode with `prefers-color-scheme`
+* Intro to SCSS/SASS (post-CSS)
+
+---
