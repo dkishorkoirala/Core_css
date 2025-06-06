@@ -1,0 +1,104 @@
+we 'll cover:
+
+1. CSS syntax- structure of a CSS rule
+2. Selectors
+    -universal selector *
+    -type selector(ex. h1, p)
+    -class selector(.classname)
+    -id selector(#idname)
+
+
+1. Css Syntax:
+a Css Rule is made up of :
+selector{
+    property: value;
+}
+
+ex:
+p{
+    color: blue;
+}
+
+p-> the selector (targets <p> tag)
+color-> the property
+blue-> the value
+
+2. Selectors explained:
+selectors are used to target HTML elements to apply styles. Here are the most common:
+
+A. universal selector *
+*{
+    margin: 0;
+    padding: 0;
+}
+means : "apply this to every element on the page."
+
+B. Type Selector(Tag selector)
+h1{
+    color: red;
+}
+means : "apply this to all <h1> elements"
+
+c. Class selector .classname
+.highlight{
+    background-color: yellow;
+}
+means : "apply this to any elements with class =highlight"
+
+used like this in HTML:
+<p class ="highlight">THis is a highlighted paragraph.</p>
+
+D. ID selector #idname
+
+#special-box{
+    border: 2px solid green;
+}
+means: "apply this to the element with id="special-box" "
+used like this in HTML
+<div id = "special-box">Content here</div>
+
+
+remember:
+class can be used on multiple elements
+ID should be unique- used once per page
+
+USE case REcap:
+selector        target              syntax ex
+*              all elements         *{ margin: 0; }
+h1             all <h1> tags        h1{ color: red;}
+.note          any element with     .note{ ... }
+               class="note"
+#important     element with id      #important{ ... }
+                important
+
+Tip: 
+Combine selectors with styles logically to avoid repetition and keep your 
+CSS clean and powerful
+
+
+
+Daily Challenges: CSS Selectors practice
+goal: style various elements using all 4 types of selectors.
+
+challenge requirements:
+1. use * to apply a style to all elements
+2. use a type selector to style headings
+3. use a class selector to style a paragraph
+4. use an id selector to style a paragraph
+5. use internal CSS
+
+mini-project -day 2
+project title: "CSS selector showcase page"
+
+requirements:
+1. Create a page with:
+    one header
+    two paragraphs
+    one special section
+
+2. apply:
+     * selector for font
+    h1 for color
+    .note class to style one paragraph
+    #important id to style the special section
+- we'll be using internal CSS for this project

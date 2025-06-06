@@ -1,0 +1,100 @@
+Day3: Colors, Units and comments
+Goal:
+-learn how to apply and customize Colors
+-understand CSS units like px, %, em, and rem
+- use comments to make your code clean and readable
+
+key concepts
+1. colors in CSS
+you can define colors using:
+
+color names(eg. red, blue)
+
+hex codes(eg. #ff0000)
+
+RGB values(eg. rgb(255, 0, 0))
+
+RGBA values(eg. rgba(255, 0, 0, 0.5) for transparacy)
+
+2. CSS units
+units           Description
+px              absolute pixels(fixed size)
+%               relative to parent size
+em               relative to font size of parent
+rem              relative to root <html> font size
+
+
+3. Comments in CSS
+/*This is css comment*/
+used to describe sections or temporatily disable code.
+
+Task: Style a card using colors , units, and Comments
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 -styling practice</title>
+
+    <style>
+        /* universal reset */
+        *{
+            margin : 0;
+            padding : 0;
+        }
+        
+        /* card container */
+        .card{
+             background-color: #f0f0f0; /*light gray8 */
+             width: 50%;  /* responsive*/
+              padding: 2em;
+             border-radius: 10px;
+             margin: 20px auto;
+             color: rgb(30, 30, 30) 
+        }
+
+        h2{
+            color: #007bff;
+
+        }
+        p{
+            font-size: 1rem;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .btn{
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Hello, CSS!</h2>
+        <br>
+        <p>This card is styled using HEX, RGB, REM, %, EM and comments.</p>
+<br>
+        <button class="btn">Click Me</button>
+    </div>
+</body>
+</html>
+
+mini project- day 3
+project title: "info card with color magic"
+
+requirements:
+    -use HEX, RGB, and RGBA colors
+    -use at least two types of units (px, %, em, rem)
+    -add at least 3 css Comments
+    - style an info card with a title, short paragraph, and a button
+
+ideas:
+    card about yourself or a topic you love
+    use contasting background and text color
+    add padding margin , rounded corners

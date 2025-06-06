@@ -1,0 +1,115 @@
+Topics we will learn:
+What is css and why it's used
+three ways to apply css:
+    inline CSS (style="" in html tags)
+    internal CSS (<style> tag inside <head>)
+    external CSS (link to a separate file .css file)
+pros and cons of each method
+
+what is css?
+CSS (Cascading Style Sheets) is a language used to describe the presentation
+(design, layout, visual structure) of an html document.
+
+while HTML defines the structure, CSS handles the style.
+
+ex:
+<h1>This is HTML</h1> <!--Structure-->
+<style>
+h1 {
+    color: red;
+}
+</style>  <!--style-->
+
+Three ways to apply css:
+1. inline css
+you apply the style directly within an HTML tag using the style attribute.
+ex.
+<h1 style="color: blue; background-color: yellow;">Welcome!</h1>
+
+pros:
+-faster and easy for small changes
+-good for testing or emails
+
+cons:
+- Not reusable
+- hard to maintain in large projects
+- mixes content and design (bad practice)
+
+2. Inline CSS
+you place the CSS rule in a <style> tag inside the <head> section of your HTML.
+
+<head>
+    <style>
+    p{
+        color: green;
+        font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <p>This is a styled paragraph.</p>
+</body>
+
+
+pros:
+-styles all element in one document
+-useful for single-page websites
+
+cons:
+-not reusable across multiple html files
+-can becom messy if too large
+
+3. External CSS
+
+you write your CSS rules in a separate .css file and link it using a <link> tag
+in the <head> of your HTML.
+
+ex.
+<!--html-->
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!--style.css-->
+p{
+    color: purple;
+    font-size: 20px;
+}
+
+pros: 
+clean separation of content and design
+reusable styles across many html pages
+easier to maintain and scale
+
+cons:
+requires an extra file
+sightly slower page load(browser must fetch CSS file)
+
+bonus: why "cascading" in css?
+because CSS can come from multiple source (inline, internla, external), the browser
+cascades through the styles and picks the most specific one.
+
+cascade order( highest to lowest priority):
+1. inline css
+2. internal css or embedded css
+3. external css
+4. browser default styles
+ 
+
+Daily challenge:
+create a simple HTML page (like a "welcome page") and style the 
+following three elements:
+    - header using inline CSS
+    - paragraph using internal CSS
+    a button using external CSS
+
+mini project day 1:
+project title: "welcome card- styled 3 ways"
+
+requirements:
+- create an HTML file with a header, paragraph, and button
+-apply:
+    -inline style to header (<h1>): change color and background 
+    -internal style to a paragraph (<p>): font-size, color, padding
+    -external css for a button(.btn): backgroung-color, padding, border-radius
+
