@@ -1,0 +1,67 @@
+Day 1: what is css?(inline, internal, external)
+type            Applied in              use case example
+inline          directly in HTML tag    <h1 style="color: red;">title</h1>
+internal        <style> inside <head>   <style> p{ color : green;} </style>
+external        Linked .css file        <link rel="stylesheet" href= "style.css">
+
+Daily challenge recap:
+header styled with inline css
+paragraph styled using internal css
+button styled using external css
+
+mini project: welcome card- styled 3 ways
+
+we crerated a page with:
+a header with inline style (color, background )
+a paragraph with internal css
+a styled button via external stylesheet(miniproject.css)
+we successfully demonstrated all three types of css application.
+
+Day 2: CSS syntax & selectors
+key sectors:
+
+selector type           syntax example          what it targets
+universal               * {}                    all elements
+tag selector            h1{}                    specific html tags 
+class selector          .classname{}            elements with class=""
+id selector             #idname{}               element with specific ID 
+
+Daily challenge recap
+-styled elements using all four types of selectors.
+
+mini project: css selector showcase page
+
+we styled:
+a header using a tag selector
+a paragraph using a class
+a button using an ID
+universal selector for resetting margin/ padding
+
+our css was clear, structured, and followed best practices
+
+day3: colors, units and comments
+covered:
+feature             example used
+colors              rgb(), rgba(), hex, named
+units               px, %, em, rem
+comments            /* this is comments */
+
+unit overview:
+px: fixed pixels(not responsive)
+%: relative to parent size
+em: relative to parent element's font-size
+rem: relative to root element's font-size
+
+Daily challenge recap:
+-created a styled card using various color types and units.
+
+mini project: info card with color magic
+used rgb +rgba colors for vibrant styling
+applied REM and em units for scalability
+styled elements (heading , paragraph, button) effectively
+
+summary:
+day             topics learned                              practiced skills demonstrated
+1               css types(inline, internal, external)       linking styles, separating concerns
+2               selectors( universal, tag, class, id)       precise targeting of elements
+3               colors, units, comments                     visual styling, scalable layout, code clarity
